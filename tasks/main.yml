@@ -15,3 +15,6 @@
 - include: service.yml
   tags:
     - "docker_service"
+
+- include: docker-compose.yml
+  when: docker_install_compose

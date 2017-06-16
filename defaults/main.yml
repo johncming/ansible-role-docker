@@ -96,3 +96,7 @@ docker_config_common:
 # ==============================================================================
 # https://docs.docker.com/engine/reference/commandline/dockerd/#/linux-configuration-file
 docker_config_custom: {}
+
+docker_install_compose: true
+docker_compose_version: "1.13.0"
+docker_compose_path: /usr/local/bin/docker-compose
